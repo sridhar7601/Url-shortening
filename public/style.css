@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+  }
+  
+  .container {
+    margin-top: 50px;
+    max-width: 500px;
+  }
+  
+  #result {
+    animation: fade-in 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
