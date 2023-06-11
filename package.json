@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "Devstart": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,10 @@
     "copy-paste": "^1.5.3",
     "express": "^4.18.2",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.9",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22"
   }
 }
